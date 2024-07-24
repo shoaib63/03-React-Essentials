@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { Fragment, useState } from 'react';
 import  CoreConcept  from './components/CoreConcept.jsx';
 import  Header  from './components/Header/Header.jsx';
 import TabButton from './components/TabButton.jsx';
@@ -25,7 +25,7 @@ if(tabContent)
   </div>);
 
   return (
-    <div>
+    <>
       <Header />
       <main>
         <section id='core-concepts'>
@@ -55,7 +55,7 @@ if(tabContent)
         </section>
         <h2>Time to get started!</h2>
       </main> 
-    </div>
+    </>
   );
 }
 

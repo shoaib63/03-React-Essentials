@@ -10,7 +10,7 @@ function genRandomInt(max) {
 
 export default function Header(){
     return (
-     <header>d
+     <header>
          <img src={reactImg} alt="Stylized atom" />
          <h1>React Essentials</h1>
          <p>
